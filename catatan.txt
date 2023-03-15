@@ -1,0 +1,4 @@
+Function
+class
+method
+Promise
