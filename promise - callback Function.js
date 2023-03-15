@@ -39,3 +39,16 @@ const getCake = callback =>{
 getCake(cake =>{ //fungsi dengan parameter cake
     console.log(cake);
 });
+
+/*
+Callback function diperlukan untuk asynchronous function lalu bagaimana jika proses satu sama lain bergantung ?
+kita membutuhkan callback hell :
+
+function makeACake(...rawIngredients) {
+  gatheringIngredients(rawIngredients)
+      .then(makeTheDough)
+      .then(pourDough)
+      .then(bakeACake)
+      .then(console.log);
+}
+*/ 
