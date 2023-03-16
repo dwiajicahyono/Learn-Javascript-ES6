@@ -1,0 +1,11 @@
+promise merupakan salah satu fitur penting yang diciri khususkan oleh
+fungsi .thennya
+
+lalu kenapa dipanggil promise ?
+
+sesuai dengan namanya, yaitu memberi janji maka promise memiliki 3 kondisi :
+pending ( janji dalam proses )
+Fulfilled ( janji terpenuhi )
+Rejected ( Janji gagal terpenuhi )
+
+promise berjalan secara asynchronous untuk membuatnya maka dibutuhkan keyword new
