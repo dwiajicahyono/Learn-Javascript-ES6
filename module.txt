@@ -1,0 +1,19 @@
+module bekerja dengan export ataupun import
+
+untuk melakukaknnya kita menggunakan keyword module.exports
+
+untuk export :
+module.exports = coffeeStock;
+
+untuk import :
+const coffeeStock = require('./state.js');
+menuliskan ./ merupakan sebuah directory karena ./ satu directory maka ditulis seperti itu 
+
+Jika kita ingin melakukan banyak export dan import kita memerlukan 
+export :
+module.exports = {coffeeStock, isCoffeeMakerReady};
+import :
+const {coffeeStock, isCoffeeMakerReady} = require('./state.js');
+
+keyword pada es6 ketika kita ingin mengimport pada berkas html :
+<script src="app.js" type="module"></script>
