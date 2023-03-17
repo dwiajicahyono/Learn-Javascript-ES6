@@ -17,3 +17,19 @@ const {coffeeStock, isCoffeeMakerReady} = require('./state.js');
 
 keyword pada es6 ketika kita ingin mengimport pada berkas html :
 <script src="app.js" type="module"></script>
+
+PERBEDAAN PADA es6
+
+pada javascript biasa exporting multiple value dan single value hanya dituliskan seperti diatas
+namun pada es6 kita dapat menuliskan demikian :
+untuk export :
+export default coffeeStock;
+
+untuk import :
+import coffeeStock from './state.js';
+
+Jika kita ingin melakukan banyak export dan import kita memerlukan 
+export :
+export {coffeeStock, isCoffeeMakerReady};
+import :
+import {coffeeStock, isCoffeeMakerReady} from './state.js';
