@@ -6,3 +6,4 @@ Promise
     namun jika ingin menggunakan banyak promide sekaligus kita gunakan promise.all()
 
 Module jumat 17-03
+Rangkuman Ecma script ada di notion
