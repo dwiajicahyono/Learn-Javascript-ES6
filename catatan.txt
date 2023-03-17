@@ -2,3 +2,7 @@ Function
 class
 method
 Promise
+    jika ingin menggunakan nested promise kita cukup gunakan parameter then
+    namun jika ingin menggunakan banyak promide sekaligus kita gunakan promise.all()
+
+Module jumat 17-03
